@@ -1,0 +1,25 @@
+{
+  "name": "jo12bar-starwars-names",
+  "version": "1.0.0",
+  "description": "Gives random Star Wars name. Not actually intended for use.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jo12bar/jo12bar-starwars-names.git"
+  },
+  "keywords": [
+    "testing",
+    "not-for-use",
+    "self-education",
+    "seriously-dont-use-this"
+  ],
+  "author": "jo12bar <johann.b@telus.net> (https://github.com/jo12bar)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jo12bar/jo12bar-starwars-names/issues"
+  },
+  "homepage": "https://github.com/jo12bar/jo12bar-starwars-names#readme"
+}
