@@ -1,16 +1,17 @@
 {
   "name": "jo12bar-starwars-names",
-  "version": "1.2.0",
+  "version": "0.0.0-semantically-released",
   "description": "Gives random Star Wars name. Not actually intended for use.",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha",
     "test:watch": "mocha -w",
-    "lint": "node_modules/.bin/eslint -c .eslintrc.js src"
+    "lint": "node_modules/.bin/eslint -c .eslintrc.js src",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jo12bar/jo12bar-starwars-names.git"
+    "url": "https://github.com/jo12bar/jo12bar-starwars-names.git"
   },
   "keywords": [
     "testing",
@@ -29,7 +30,8 @@
     "eslint": "2.5.1",
     "eslint-config-airbnb": "6.2.0",
     "eslint-plugin-react": "4.2.3",
-    "mocha": "2.4.5"
+    "mocha": "2.4.5",
+    "semantic-release": "^4.3.5"
   },
   "dependencies": {
     "unique-random-array": "1.0.0"
