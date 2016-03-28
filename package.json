@@ -33,6 +33,7 @@
     "eslint": "2.5.1",
     "eslint-config-airbnb": "6.2.0",
     "eslint-plugin-react": "4.2.3",
+    "ghooks": "1.0.3",
     "mocha": "2.4.5",
     "semantic-release": "^4.3.5"
   },
@@ -41,5 +42,10 @@
   },
   "czConfig": {
     "path": "node_modules/cz-conventional-changelog"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run test"
+    }
   }
 }
