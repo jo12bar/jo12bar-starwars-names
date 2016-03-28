@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "commit": "git-cz",
-    "test": "mocha",
+    "test": "istanbul cover -x test/**/* node_modules/mocha/bin/_mocha -- -R spec test",
     "test:watch": "mocha -w",
     "lint": "node_modules/.bin/eslint -c .eslintrc.js src",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
@@ -34,6 +34,7 @@
     "eslint-config-airbnb": "6.2.0",
     "eslint-plugin-react": "4.2.3",
     "ghooks": "1.0.3",
+    "istanbul": "0.4.2",
     "mocha": "2.4.5",
     "semantic-release": "^4.3.5"
   },
