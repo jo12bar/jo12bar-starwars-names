@@ -21,5 +21,13 @@ describe('jo12bar-starwars-names', function () {
       const randomItem = starWars.random();
       expect(starWars.all).to.include(randomItem);
     });
-  })
+
+    it('should return an array of random items if passed a number', () => {
+      const randomItems = starWars.random(3);
+      expect(randomItems).to.have.length(3);
+      randomItems.forEach((item) => {
+        expect(starWars.all).to.include(item);
+      });
+    });
+  });
 });
