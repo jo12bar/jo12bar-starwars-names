@@ -1,5 +1,5 @@
 # jo12bar-starwars-names
-[![Build Status](https://travis-ci.org/jo12bar/jo12bar-starwars-names.svg?branch=master)](https://travis-ci.org/jo12bar/jo12bar-starwars-names)
+[![Build Status](https://img.shields.io/travis/jo12bar/jo12bar-starwars-names.svg?style=flat-square)](https://travis-ci.org/jo12bar/jo12bar-starwars-names)
 
 Get random Star Wars name
 
