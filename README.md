@@ -1,5 +1,9 @@
 # jo12bar-starwars-names
 [![Build Status](https://img.shields.io/travis/jo12bar/jo12bar-starwars-names.svg?style=flat-square)](https://travis-ci.org/jo12bar/jo12bar-starwars-names)
+[![npm](https://img.shields.io/npm/v/jo12bar-starwars-names.svg?style=flat-square)](http://npm.im/jo12bar-starwars-names)
+[![Downloads per month](https://img.shields.io/npm/dm/jo12bar-starwars-names.svg?style=flat-square)](http://npm.im/jo12bar-starwars-names)
+[![GitHub license](https://img.shields.io/github/license/jo12bar/jo12bar-starwars-names.svg?style=flat-square)](https://github.com/jo12bar/jo12bar-starwars-names/blob/master/LICENSE)
+[![Badge status](https://img.shields.io/badge/Badge%20status-wow.%20so%20badge.%20much%20green.-brightgreen.svg?style=flat-square)](http://shields.io)
 
 Get random Star Wars name
 
