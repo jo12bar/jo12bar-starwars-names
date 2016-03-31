@@ -1,0 +1,5 @@
+node_modules
+coverage
+
+# lack of dist/ folder here means that dist/ will still be published to npm,
+# even though it's in the .gitignore

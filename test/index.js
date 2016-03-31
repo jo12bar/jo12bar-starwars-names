@@ -1,7 +1,7 @@
-const expect = require('chai').expect;
-const starWars = require('../src/index');
+import { expect } from 'chai';
+import starWars from '../src/index';
 
-describe('jo12bar-starwars-names', function () {
+describe('jo12bar-starwars-names', () => {
   describe('all', () => {
     it('should be an array of strings', () => {
       expect(starWars.all).to.satisfy(isArrayOfStrings);

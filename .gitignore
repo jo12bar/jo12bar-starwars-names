@@ -31,3 +31,9 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# Dist folder. Will still get published to npm, because we have a .npmignore
+# file that overrides this file. The .npmignore file does not include dist/,
+# so when the dist files are generated on Travis CI they will still be published
+# even though they are not on github.
+dist
