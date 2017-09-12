@@ -1,5 +1,7 @@
 # NOTE: This repo is no longer maintained. Feel free to fork it if you want to contiue working with it!
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jo12bar/jo12bar-starwars-names.svg)](https://greenkeeper.io/)
+
 # jo12bar-starwars-names
 [![Build Status](https://img.shields.io/travis/jo12bar/jo12bar-starwars-names.svg?style=flat-square)](https://travis-ci.org/jo12bar/jo12bar-starwars-names)
 [![Codecov](https://img.shields.io/codecov/c/github/jo12bar/jo12bar-starwars-names.svg?style=flat-square)](https://codecov.io/github/jo12bar/jo12bar-starwars-names)
